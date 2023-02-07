@@ -1,0 +1,788 @@
+/*
+    DEMO STYLE
+*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+  font-family: "Poppins", sans-serif;
+  /* background-image: url(./background-home\ 1.png); */
+  background: #fafdff;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.7em;
+  color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.active > a {
+  color: #2e3a59;
+}
+
+.navbar {
+  padding: 15px 10px;
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 40px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+  box-shadow: none;
+  outline: none !important;
+  border: none;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dashed #ddd;
+  margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+#sidebar {
+  min-width: 230px;
+  max-width: 230px;
+  /* background: white; */
+  color: #fff;
+  transition: all 0.3s;
+}
+.abc {
+  background-color: #f15c44;
+}
+#sidebar.active {
+  margin-left: -230px;
+}
+.nav_logo {
+  width: 220px;
+}
+#sidebar .sidebar-header {
+  margin-top: 5px;
+  padding: 14px 5px;
+  /* background:#E74F2C; */
+  border-radius: 5px;
+  /* background:cornflowerblue; */
+  /* padding-bottom: 0px; */
+}
+
+#sidebar ul.components {
+  padding: 10px 0;
+  padding-left: 25px;
+  border-bottom: 1px solid #e74f2c;
+}
+
+#sidebar ul p {
+  color: #7386d5;
+  padding: 10px;
+}
+
+#sidebar ul li a {
+  padding: 8px;
+  font-size: 1.5em;
+  font-weight: 500;
+  display: block;
+  /* color: black; */
+  color: #2e3a59;
+  border-radius: 5px;
+  /* background: #1072f81a; */
+}
+.dropdown_inner {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+#sidebar ul li a:hover {
+  /* color: #7386D5; */
+  /* color: #2e3a59; */
+  background: #1072f81a;
+  text-decoration: none;
+}
+
+#sidebar ul li.active > a,
+a[aria-expanded="true"] {
+  /* color: #007bff; */
+  color: #2e3a59;
+  /* color: black; */
+  /* background: orange; */
+}
+
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+.dropdown-toggle::after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+ul ul a {
+  font-size: 0.9em !important;
+  padding-left: 30px !important;
+  /* background: ghostwhite */
+  color: #2e3a59;
+}
+
+ul.CTAs {
+  padding: 20px;
+}
+
+ul.CTAs a {
+  text-align: center;
+  font-size: 0.9em !important;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+a.down_btn,
+a.down_btn:hover {
+  background: cornflowerblue !important;
+  color: #7386d5 !important;
+}
+
+a.down_btn,
+a.down_btn:hover {
+  background: #e74f2c !important;
+  color: #fff !important;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+  width: 100%;
+  padding: 20px;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -250px;
+  }
+  #sidebar.active {
+    margin-left: 0;
+  }
+  #sidebarCollapse span {
+    display: none;
+  }
+}
+/* ---------------------------------------------------
+    content
+----------------------------------------------------- */
+.bbb {
+  margin: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background: #ffffff;
+  /* text-align: center; */
+}
+.logout1 {
+  color: #2e3a59;
+}
+.sidebar_option {
+  width: 24px;
+  padding-top: -2px;
+}
+.sidebar_option_span {
+  padding-left: 5px;
+}
+.dashgrid {
+  width: 100%;
+  height: 90%;
+  /* width: 500px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.img1 {
+  width: 400px;
+}
+
+.w-6 {
+  width: 20px;
+}
+
+/* ---------------------------------------------------
+    add employee style start
+----------------------------------------------------- */
+.start_container {
+  width: 100%;
+  height: 500px;
+  /* border: 1px solid black; */
+}
+.main_container_add_employee {
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  margin: auto;
+  /* margin-top: 1%; */
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
+    0 0 0 1px rgb(10 10 10 / 2%);
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+.head_container_add {
+  margin: 5px 5px 5px 5px;
+}
+
+.form_container_add {
+  margin: 5px 5px 5px 5px;
+}
+.input_box_add {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form_box_input_add {
+  background-color: hwb(7 90% 6%);
+  width: 50%;
+  height: 30px;
+  border-radius: 12px;
+  padding-left: 10%;
+  border: none;
+}
+.login_btn_add {
+  width: 50%;
+  height: 30px;
+  border-radius: 10px;
+}
+/* ---------------------------------------------------
+    add employee style end 
+----------------------------------------------------- */
+/* ---------------------------------------------------
+    employee list style start
+----------------------------------------------------- */
+.displayEmp-main-container {
+  margin: 30px;
+  /* border: 1px solid #E74F2C; */
+  box-shadow: 0px 0px 8px #e74f2c;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  color: #16243d;
+  border-radius: 5px;
+}
+.displayEmp-main-container-title {
+  background-color: #ffffff;
+  color: #e74f2c;
+  font-weight: bold;
+  /* font-family: "Inter"; */
+  /* font-style: normal; */
+  font-weight: 600;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.displayEmp-main-container-title-border {
+  border-bottom: 2px solid #e74f2c;
+  width: 97%;
+  margin: auto;
+  margin-top: 4px;
+  margin-bottom: 40px;
+}
+.displayEmp-main-container-box {
+  border: 1px solid #e74f2c;
+  margin: 10px;
+  /* margin-left: 30px; */
+  /* margin-right: 30px; */
+  display: flex;
+  /* justify-content:space-between; */
+  /* color: red */
+  border-radius: 3px;
+}
+.displayEmp-main-container-box1 {
+  /* border: 3px solid red; */
+  display: flex;
+  gap: 50px;
+  margin: auto;
+}
+.displayEmp-main-container-box1-pic {
+  width: 35px;
+  padding: auto;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+}
+.displayEmp-main-container-box1-div1 {
+  /* padding: auto; */
+  margin: auto;
+  /* margin-left: 20px; */
+  color: #16243d;
+  display: flex;
+}
+
+.displayEmp-main-container-box2 {
+  display: flex;
+  margin-right: 50px;
+  /* color: red; */
+}
+.displayEmp-main-container-box1-div2 {
+  padding: auto;
+  margin: auto;
+  margin-left: 15px;
+  color: gray;
+}
+
+/* ---------------------------------------------------
+    display employee style end 
+----------------------------------------------------- */
+
+/* ---------------------------------------------------
+    add employee style start 
+----------------------------------------------------- */
+.addEmp-main-container{
+  margin: 30px;
+  /* border: 1px solid #E74F2C; */
+  box-shadow: 0px 0px 8px #E74F2C;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  color: #16243D;
+  border-radius: 5px;
+}
+.addEmp-main-container-title{
+  background-color: #FFFFFF;
+    color: #E74F2C;
+    font-weight: bold;
+    /* font-family: 'Inter'; */
+    /* font-style: normal; */
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.addEmp-main-container-title-border{
+  border-bottom: 2px solid #E74F2C;
+  width: 97%;
+  margin: auto;
+  margin-top: 4px;
+  margin-bottom: 40px;
+}
+.personal-details-container{
+  display: grid;
+  margin: 0 20px;
+  padding: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  /* border: 2px solid #E74F2C; */
+  color: #16243D;
+  /* justify-content: space-evenly; */
+  /* justify-items: center; */
+  
+}
+.personal-details-container-box{
+width: 100%;
+}
+input{
+  border: none;
+  color: #16243D;
+}
+::placeholder{
+  color: #16243D;
+  border-color: #E74F2C;
+}
+.box1{
+  height: 35px;
+  padding-left: 20px;
+  border: 1px solid #E74F2C;
+  border-radius: 5px;
+
+}
+.addemp-button-div{
+  width: 90%;
+margin: auto;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.addemp-button{
+  width: 100%;
+  margin: auto;
+  height: 35px;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color:#E74F2C;
+  /* padding: 10px; */
+  /* margin: 10px; */
+  padding-bottom: 5px;
+}
+
+/* ---------------------------------------------------
+    add employee style end 
+----------------------------------------------------- */
+/* ---------------------------------------------------
+    add company style start
+----------------------------------------------------- */
+.addCompany-main-container{
+  margin: 30px;
+  /* border: 1px solid #E74F2C; */
+  box-shadow: 0px 0px 8px #E74F2C;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  color: #16243D;
+  border-radius: 5px;
+}
+.addCompany-main-container-title{
+  background-color: #FFFFFF;
+    color: #E74F2C;
+    font-weight: bold;
+    /* font-family: 'Inter'; */
+    /* font-style: normal; */
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.addCompany-main-container-title-border{
+  border-bottom: 2px solid #E74F2C;
+  width: 97%;
+  margin: auto;
+  margin-top: 4px;
+  margin-bottom: 40px;
+}
+.Company-details-container{
+  display: grid;
+  margin: 0 20px;
+  padding: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  /* border: 2px solid #E74F2C; */
+  color: #16243D;
+  /* justify-content: space-evenly; */
+  /* justify-items: center; */
+  
+}
+input{
+  border: none;
+  /* color: red; */
+}
+::placeholder{
+  color: #16243D;
+  border-color: #E74F2C;
+}
+.box1{
+  height: 35px;
+  padding-left: 20px;
+  border: 1px solid #E74F2C;
+  border-radius: 5px;
+}
+.addCompany-button-div{
+  width: 90%;
+margin: auto;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.addCompany-button{
+  width: 100%;
+  margin: auto;
+  height: 35px;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color:#E74F2C;
+  /* padding: 10px; */
+  /* margin: 10px; */
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* ---------------------------------------------------
+    add company style end 
+----------------------------------------------------- */
+
+/* ---------------------------------------------------
+    view employee style start 
+----------------------------------------------------- */
+.viewemp-main-container{
+  margin: 30px;
+  /* border: 1px solid #E74F2C; */
+  box-shadow: 0px 0px 8px #E74F2C;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  color: #16243D;
+  border-radius: 5px;
+}
+
+.viewemp-main-container-title{
+  background-color: #FFFFFF;
+  color: #E74F2C;
+  /* font-weight: bold; */
+  /* font-family: 'Inter'; */
+  /* font-style: normal; */
+  font-weight: 600;
+  font-size: 25px;
+  /* margin-top: 10px; */
+  margin-left: 15px;
+}
+.viewemp-main-container-title-border{
+  border-bottom: 2px solid #E74F2C;
+  width: 95%;
+  margin: auto;
+  margin-left: 46px;
+  margin-top: 4px;
+  margin-bottom: 40px;
+}
+
+.viewemp-imgdiv{
+  display: flex;
+  margin-left: 50px;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.viewemp-imgdiv-box1{
+  display: flex;
+  /* margin-left: 50px; */
+  /* margin-top: 30px; */
+}
+.viewemp-titlediv{
+margin: 8px;
+margin-left: 20px;
+}
+.viewemp-titleid{
+  margin: auto;
+  margin-right: 40px;
+  font-size: medium;
+  color: #787c81;
+}
+.viewemp-main-container-box1-pic{
+  width: 35px;
+  padding: auto;
+  margin: auto;
+  margin-top: 5px;
+  border-radius: 25%;
+}
+.viewemp-main-container-infodiv{
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  margin: 10px;
+}
+.viewemp-main-container-infodiv-box{
+  /* border: 1px solid black; */
+  border-bottom: 1px solid #E74F2C;
+  width: 95%;
+  height: 50px;
+  margin: auto;
+  padding-top: 10px;
+  /* margin-left: 50px; */
+  display: flex;
+  justify-content: space-between;
+}
+.viewemp-main-container-infodiv-box-address{
+  border-bottom: 1px solid #E74F2C;
+  width: 95%;
+  height: 65px;
+  margin: auto;
+  padding-top: 10px;
+  /* margin-left: 50px; */
+  display: flex;
+  justify-content: space-between;
+}
+.viewemp-main-container-infodiv-box1{
+display: flex;
+justify-content:flex-start;
+gap: 10px;
+width: 50%;
+/* text-align: center; */
+}
+.viewemp-main-container-infodiv-box1-span{
+/* margin-left: 100px; */
+/* margin: 20px; */
+padding: 20px;
+font-weight: 600;
+font-size: 21px;
+line-height: 34px;
+/* text-align: center; */
+}
+.viewemp-main-container-infodiv-box1-div1{
+width: 50%;
+}
+/* ---------------------------------------------------
+    view employee style end 
+----------------------------------------------------- */
+
+
+/* ---------------------------------------------------
+    Leave style start
+----------------------------------------------------- */
+.leave-main-container{
+  margin: 30px;
+  /* border: 1px solid #E74F2C; */
+  box-shadow: 0px 0px 8px #E74F2C;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  color: #16243D;
+  border-radius: 5px;
+}
+.leave-main-container-title{
+  background-color: #FFFFFF;
+    color: #E74F2C;
+    /* font-weight: bold; */
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.leave-main-container-title-border{
+  border-bottom: 3px solid #E74F2C;
+  width: 92%;
+  margin: auto;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.leave-details-container{
+  display: grid;
+  margin: 0 20px;
+  padding: 20px;
+  /* padding-bottom: 100px; */
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  /* border: 2px solid #E74F2C; */
+  color: #16243D;
+  /* justify-content: space-evenly; */
+  /* justify-items: center; */
+  
+}
+input{
+    border: none;
+    /* color: red; */
+  }
+  ::placeholder{
+    color: #16243D;
+    border-color: #E74F2C;
+  }
+  .box1{
+    height: 35px;
+    padding-left: 20px;
+    border: 1px solid #E74F2C;
+    border-radius: 5px;
+  
+  }
+ .swipediv{
+    height: 40px;
+    /* padding-left: 1px; */
+    background-color: #E74F2C;
+    border-radius: 5px;
+    display: flex;
+ }
+ .swipediv-imgdiv{
+    width: 30px;
+    margin: 5px;
+    margin-left: 10px;
+    padding-top: 2px;
+    /* border: 1px black solid; */
+    background-color: #ffffff;
+    border-radius: 3px;
+ }
+ img{
+    width: 30px;
+ }
+ .swipediv-btndiv{
+    width: 80%;
+    text-align: center;
+    color: #ffffff;
+   padding-top: 1%;
+    font-weight: 100;
+     font-size: 20px;
+
+ }
+ .leave-dropdown-div{
+    width: 100%;
+    height: 100%;
+    background-color:#E74F2C;
+    color: #ffffff;
+    text-align: center;    
+ }
+ .leave-dropdown{
+    height: 100%;
+    width: 95%;
+    /* background-color: transparent; */
+    color: #ffffff;
+    background-color:#E74F2C;
+    padding-left: 1px;
+    border: none;
+    font-weight: 100;
+    font-size: 20px;
+ }
+ .leave-bottom-box1{
+    height: 100px;
+    padding-left: 20px;
+    border: 1px solid #E74F2C;
+    border-radius: 5px;
+    text-align: center;
+ }
+ .leave-bottom-box1-add-img{
+    padding-top: 40px;
+    padding-left: 20px;
+    border: 1px solid #E74F2C;
+    border-radius: 5px;
+    text-align: center;
+ }
+ .leave-button-div{
+    width: 93%;
+  margin: auto;
+  /* margin-top: 15px; */
+  margin-bottom: 20px;
+  }
+  .leave-button{
+    width: 100%;
+    margin: auto;
+    height: 40px;
+    color: #ffffff;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color:#E74F2C;
+    /* padding: 10px; */
+    /* margin: 10px; */
+  }
+
+
+  /* ---------------------------------------------------
+    leave style end 
+----------------------------------------------------- */

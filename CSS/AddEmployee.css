@@ -1,0 +1,76 @@
+.addEmp-main-container{
+  margin: 30px;
+  /* border: 1px solid #E74F2C; */
+  box-shadow: 0px 0px 8px #E74F2C;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  color: #16243D;
+  border-radius: 5px;
+}
+.addEmp-main-container-title{
+  background-color: #FFFFFF;
+    color: #E74F2C;
+    /* font-weight: bold; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.addEmp-main-container-title-border{
+  border-bottom: 2px solid #E74F2C;
+  width: 97%;
+  margin: auto;
+  margin-top: 4px;
+  margin-bottom: 40px;
+}
+.personal-details-container{
+  display: grid;
+  margin: 0 20px;
+  padding: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  border: 2px solid #E74F2C;
+  color: #16243D;
+  /* justify-content: space-evenly; */
+  /* justify-items: center; */
+  
+}
+.personal-details-container-box{
+width: 100%;
+}
+input{
+  border: none;
+  color: red;
+}
+::placeholder{
+  color: #16243D;
+  border-color: #E74F2C;
+}
+.box1{
+  height: 25px;
+  padding-left: 20px;
+  border: 1px solid #E74F2C;
+
+}
+.addemp-button-div{
+  width: 90%;
+margin: auto;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.addemp-button{
+  width: 100%;
+  margin: auto;
+  height: 35px;
+  color: #ffffff;
+  font-size: 25px;
+  border: none;
+  border-radius: 5px;
+  background-color:#E74F2C;
+  /* padding: 10px; */
+  /* margin: 10px; */
+}
