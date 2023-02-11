@@ -32,17 +32,12 @@ function TTsidebarComponents(){
             >
             <ul class="collapse list-unstyled dropdown_inner" id="homeSubmenu1">
               <li class="employeelist">
-                <a href="#">View All Project</a>
+                <a href="#">Assign Project</a>
               </li>
               <li>
-                <a href="#">View Perticular Project</a>
+                <a href="#">Premission</a>
               </li>
-              <li>
-                <a href="#">Employee</a>
-              </li>
-              <li>
-                <a href="#">Extra function</a>
-              </li>
+              
             </ul>
           </li>
           <!--end  -->
@@ -63,16 +58,16 @@ function TTsidebarComponents(){
             >
             <ul class="collapse list-unstyled dropdown_inner" id="homeSubmenu">
               <li class="employeelist">
-                <a href="#">Employee List</a>
+                <a href="#" id = "employeelist1">Employee List</a>
               </li>
               <li>
-                <a href="#">view Employee</a>
+                <a href="#" id = "viewemployee1">view Employee</a>
               </li>
               <li>
-                <a href="#">add Employee</a>
+                <a href="#" id = "addnewemployee1">add Employee</a>
               </li>
               <li>
-                <a href="#">edit Employee</a>
+                <a href="#" id = "updateemployee1">edit Employee</a>
               </li>
             </ul>
           </li>
@@ -145,7 +140,7 @@ function TTsidebarComponents(){
             >
           </li>
           <li>
-            <a href="#"
+            <a href="#" id = "Leave"
               ><div>
                 <img class="sidebar_option" src="../Assets/leave1.png" alt="" />
                 <span class="sidebar_option_span">Leave</span>
@@ -169,7 +164,7 @@ function TTsidebarComponents(){
             >
           </li>
         </ul>
-    
+       
     `
 }
 

@@ -229,6 +229,61 @@ a.down_btn:hover {
 .w-6 {
   width: 20px;
 }
+/* ---------------------------------------------------
+    home main style start
+----------------------------------------------------- */
+.Home-main-container{
+  /* border: 1px solid black; */
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
+  box-shadow: 0px 0px 8px #E74F2C;
+  background-color: #ffffff;
+  display: flex;
+  gap: 30px;
+  color: #16243D;
+  border-radius: 5px;
+  justify-content: center;
+}
+.Home-main-container-box1{
+  margin-top: 20px;
+  /* border: 1px solid black; */
+  height: 400px;
+  /* margin-bottom: 90px; */
+}
+.home-main-title{
+  color: #2e3a59;
+  /* margin-left: 5px; */
+}
+.Home-main-container-title-border{
+  border-bottom: 2px solid #E74F2C;
+  width: 100%;
+  margin: auto;
+  margin-top: 4px;
+  margin-bottom: 40px;
+}
+.Home-main-container-box1-row1{
+  display: flex;
+  /* gap: 8px; */
+  /* border:  1px solid red; */
+  border-bottom: 2px solid #E74F2C;
+  line-height: 40px;
+  /* margin-top: 5px; */
+  justify-content: space-between;
+  color: #2e3a59;
+  margin-left: 30px;
+  margin-right: 30px;
+  /* gap: 30px; */
+}
+.Home-main-container-box1-div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* border: 1px solid red; */
+}
+/* ---------------------------------------------------
+    home main style end
+----------------------------------------------------- */
 
 /* ---------------------------------------------------
     add employee style start
@@ -298,8 +353,7 @@ a.down_btn:hover {
   background-color: #ffffff;
   color: #e74f2c;
   font-weight: bold;
-  /* font-family: "Inter"; */
-  /* font-style: normal; */
+  
   font-weight: 600;
   font-size: 25px;
   margin-top: 20px;
@@ -785,4 +839,60 @@ input{
 
   /* ---------------------------------------------------
     leave style end 
+----------------------------------------------------- */
+
+/* ---------------------------------------------------
+    TT home main style start
+----------------------------------------------------- */
+.TTHome-main-container{
+  /* border: 1px solid black; */
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
+  box-shadow: 0px 0px 8px #E74F2C;
+  background-color: #ffffff;
+  display: flex;
+  gap: 30px;
+  color: #16243D;
+  border-radius: 5px;
+  justify-content: center;
+}
+.TTHome-main-container-box1{
+  margin-top: 20px;
+  /* border: 1px solid black; */
+  height: 400px;
+  /* margin-bottom: 90px; */
+}
+.TThome-main-title{
+  color: #2e3a59;
+  /* margin-left: 5px; */
+}
+.TTHome-main-container-title-border{
+  border-bottom: 2px solid #E74F2C;
+  width: 100%;
+  margin: auto;
+  margin-top: 4px;
+  margin-bottom: 40px;
+}
+.TTHome-main-container-box1-row1{
+  display: flex;
+  /* gap: 8px; */
+  /* border:  1px solid red; */
+  border-bottom: 2px solid #E74F2C;
+  line-height: 40px;
+  /* margin-top: 5px; */
+  justify-content: space-between;
+  color: #2e3a59;
+  margin-left: 30px;
+  margin-right: 30px;
+  /* gap: 30px; */
+}
+.TTHome-main-container-box1-div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* border: 1px solid red; */
+}
+/* ---------------------------------------------------
+    TT home main style end
 ----------------------------------------------------- */
