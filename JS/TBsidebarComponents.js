@@ -32,12 +32,7 @@ function TBsidebarComponents(){
               <li>
                 <a href="#">Premission</a>
               </li>
-              <li>
-                <a href="#">Employee</a>
-              </li>
-              <li>
-                <a href="#">Extra function</a>
-              </li>
+             
             </ul>
           </li>
           <li class="select-box active">
@@ -115,10 +110,10 @@ function TBsidebarComponents(){
             >
             <ul class="collapse list-unstyled dropdown_inner" id="project1">
               <li>
-                <a href="#">View On Going Project</a>
+                <a href="#" id = "projectDetails">View On Going Project</a>
               </li>
               <li>
-                <a href="#">Assign Project</a>
+                <a href="#" id = "assignproject1">Assign Project</a>
               </li>
               <li>
                 <a href="#">Completed Project</a>

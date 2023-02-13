@@ -38,7 +38,7 @@ console.log(updateemployee, "check");
 let updateemp = document.getElementById("updateemployee1");
 
 updateemp.addEventListener("click", updateFunction);
-
+  
 function updateFunction() {
   displaycomponents.innerHTML = updateemployee()
 }
@@ -84,3 +84,34 @@ Leavex.addEventListener("click", LeaveFunction);
 function LeaveFunction() {
 displaycomponents.innerHTML = LeaveReq();
 }
+
+/* ---------------------------------------------------
+     Project Details
+  ----------------------------------------------------- */
+
+import { projectDetails } from "./projectDetails.js";
+console.log(projectDetails, "check");
+
+let projectDetails1 = document.getElementById("projectDetails");
+projectDetails1.addEventListener("click",ProjectDfunction);
+
+function ProjectDfunction() {
+  displaycomponents.innerHTML = projectDetails()
+}
+
+/* ---------------------------------------------------
+    Assign Project js
+  ----------------------------------------------------- */
+
+  import { assignproject } from "./assignproject.js";
+  console.log(assignproject,"check");
+
+  let assignproject1 = document.getElementById("assignproject1");
+  assignproject1.addEventListener("click",AssignProjectDfunction);
+
+  function AssignProjectDfunction() {
+    displaycomponents.innerHTML = assignproject()
+  }
+
+
+  

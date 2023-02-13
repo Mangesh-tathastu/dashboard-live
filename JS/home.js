@@ -72,7 +72,7 @@ function addcompanyFunction() {
 // }
 
 /* ---------------------------------------------------
-     viewemployee js
+     viewemployee js    
   ----------------------------------------------------- */
 
 // import { viewemployee } from "../JS/viewemployee.js";
