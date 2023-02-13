@@ -896,3 +896,152 @@ input{
 /* ---------------------------------------------------
     TT home main style end
 ----------------------------------------------------- */
+
+/* ---------------------------------------------------
+    TT home view project style start
+----------------------------------------------------- */
+.viewproject-main-container{
+  margin: 30px;
+  /* border: 5px solid #E74F2C; */
+  box-shadow: 0px 0px 8px #E74F2C;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  color: #16243D;
+  border-radius: 5px;
+  /* margin-bottom: 50px; */
+  padding-bottom: 50px;
+
+
+}
+.viewproject-main-container-title{
+  background-color: #FFFFFF;
+    color: #E74F2C;
+    font-weight: bold;
+    /* font-family: 'Inter'; */
+    /* font-style: normal; */
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.viewproject-main-container-title-border{
+  border-bottom: 2px solid #E74F2C;
+  width: 97%;
+  margin: auto;
+  margin-top: 4px;
+  margin-bottom: 40px;
+}
+.viewproject-details-container{
+  display: grid;
+  margin: 0 20px;
+  padding: 20px;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  /* border: 2px solid #E74F2C; */
+  color: #16243D;
+}
+
+.viewproject-details-box{
+  display: flex;
+  /* gap: 8px; */
+  /* border:  1px solid red; */
+  border-bottom: 2px solid #E74F2C;
+  line-height: 40px;
+  /* margin-top: 5px; */
+  justify-content: space-between;
+  color: #2e3a59;
+  margin-left: 30px;
+  margin-right: 30px;
+  /* gap: 30px; */
+}
+/* ---------------------------------------------------
+    TT home view projeect style end
+----------------------------------------------------- */
+
+/* ---------------------------------------------------
+    TT home assign projeect style start
+----------------------------------------------------- */
+.assignproject-main-container{
+  margin: 30px;
+  /* border: 5px solid #E74F2C; */
+  box-shadow: 0px 0px 8px #E74F2C;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  color: #16243D;
+  border-radius: 5px;
+  /* margin-bottom: 50px; */
+  padding-bottom: 50px;
+
+
+}
+.assignproject-main-container-title{
+  background-color: #FFFFFF;
+    color: #E74F2C;
+    font-weight: bold;
+    /* font-family: 'Inter'; */
+    /* font-style: normal; */
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.assignproject-main-container-title-border{
+  border-bottom: 2px solid #E74F2C;
+  width: 97%;
+  margin: auto;
+  margin-top: 4px;
+  margin-bottom: 40px;
+}
+.assignproject-details-container{
+  display: grid;
+  margin: 0 20px;
+  padding: 20px;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  /* border: 2px solid #E74F2C; */
+  color: #16243D;
+}
+
+.assignproject-details-box{
+  display: flex;
+  /* gap: 8px; */
+  /* border:  1px solid red; */
+  border-bottom: 2px solid #E74F2C;
+  line-height: 40px;
+  /* margin-top: 5px; */
+  justify-content: space-between;
+  color: #2e3a59;
+  margin-left: 30px;
+  margin-right: 30px;
+  /* gap: 30px; */
+}
+
+.assignbox1{
+  /* width: 100%; */
+  height: 35px;
+  color: #2e3a59;
+  padding-left: 20px;
+  /* border: 1px solid #E74F2C; */
+  border-radius: 5px;
+  font-size: medium;
+  /* border: none; */
+}
+.assignbox1-input{
+  /* width: 100%; */
+  height: 35px;
+  color: #2e3a59;
+  padding-left: 20px;
+  /* border: 1px solid #E74F2C; */
+  border-radius: 5px;
+  font-size: medium;
+  /* border: none; */
+}
+
+
+/* ---------------------------------------------------
+    TT home assign projeect style end
+----------------------------------------------------- */
