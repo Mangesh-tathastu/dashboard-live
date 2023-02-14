@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+    <!--  -->
+    <link rel="icon" href="../Assets/fav-icon.png" type="image/icon type" />
+    <link rel="stylesheet" href="../CSS/sidebar.css" />
+    <!-- Bootstrap CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome JS -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+      integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+      integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Popper.JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+      integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+      integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+      crossorigin="anonymous"
+    ></script>
+    <!--  -->
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Sidebar  -->
+      <nav id="sidebar">
+        <div class="sidebar-header">
+          <h3>Tathastu Group</h3>
+        </div>
+
+        <ul class="list-unstyled components">
+          <!-- <p>Admin Panel</p> -->
+          <li class="active">
+            <a href="">Dashboard</a>
+          </li>
+          <!--start  -->
+          <li class="active">
+            <a
+              href="#homeSubmenu1"
+              data-toggle="collapse"
+              aria-expanded="false"
+              class="dropdown-toggle"
+              >Admin Dashboard</a
+            >
+            <ul class="collapse list-unstyled" id="homeSubmenu1">
+              <li class="employeelist">
+                <a href="#">View All Project</a>
+              </li>
+              <li>
+                <a href="#">View Perticular Project</a>
+              </li>
+              <li>
+                <a href="#">Employee</a>
+              </li>
+              <li>
+                <a href="#">Extra function</a>
+              </li>
+            </ul>
+          </li>
+          <!--end  -->
+          <!-- start -->
+          <li class="active">
+            <a
+              href="#homeSubmenu2"
+              data-toggle="collapse"
+              aria-expanded="false"
+              class="dropdown-toggle"
+              >Company Dashboard</a
+            >
+            <ul class="collapse list-unstyled" id="homeSubmenu2">
+              <!-- <li class="employeelist">
+                <a href="#">View All Company</a>
+              </li>
+              <li>
+                <a href="#">View Perticular Company</a>
+              </li> -->
+              <li>
+                <a href="#">Tathastu Technologies</a>
+              </li>
+              <li>
+                <a href="#">Tathastu BIM</a>
+              </li>
+              <li>
+                <a href="#">Add New Company</a>
+              </li>
+            </ul>
+          </li>
+          <!-- end -->
+          <li class="active">
+            <a
+              href="#homeSubmenu"
+              data-toggle="collapse"
+              aria-expanded="false"
+              class="dropdown-toggle"
+              >Employee Dashboard</a
+            >
+            <ul class="collapse list-unstyled" id="homeSubmenu">
+              <li class="employeelist">
+                <a href="#">Employee List</a>
+              </li>
+              <li>
+                <a href="#">view Employee</a>
+              </li>
+              <li>
+                <a href="#">add Employee</a>
+              </li>
+              <li>
+                <a href="#">edit Employee</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a
+              href="#pageSubmenu"
+              data-toggle="collapse"
+              aria-expanded="false"
+              class="dropdown-toggle"
+              >Depertment</a
+            >
+            <ul class="collapse list-unstyled" id="pageSubmenu">
+              <li>
+                <a href="#">FrontEnd</a>
+              </li>
+              <li>
+                <a href="#">Backend</a>
+              </li>
+              <li>
+                <a href="#">HR</a>
+              </li>
+            </ul>
+          </li>
+          <!--  -->
+          <li>
+            <a
+              href="#project1"
+              data-toggle="collapse"
+              aria-expanded="false"
+              class="dropdown-toggle"
+              >Project Management</a
+            >
+            <ul class="collapse list-unstyled" id="project1">
+              <li>
+                <a href="#">View On Going Project</a>
+              </li>
+              <li>
+                <a href="#">Assign Project</a>
+              </li>
+              <li>
+                <a href="#">Completed Project</a>
+              </li>
+            </ul>
+          </li>
+          <!--  -->
+          <li>
+            <a href="#">Portfolio</a>
+          </li>
+          <li>
+            <a href="#">Leave</a>
+          </li>
+          <li>
+            <a href="#">Function</a>
+          </li>
+          <li>
+            <a href="#">Events</a>
+          </li>
+        </ul>
+
+        <ul class="list-unstyled CTAs">
+          <li>
+            <a href="#" class="down_btn">Previous Employee Data </a>
+          </li>
+          <li>
+            <a href="#" class="down_btn">Button for future</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Page Content  -->
+      <div id="content">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <button type="button" id="sidebarCollapse" class="btn btn-light">
+              <i class="fas fa-align-left"></i>
+              <span><img src="../Assets/logo-tt 1.png" alt="" /></span>
+            </button>
+            <button
+              class="btn btn-dark d-inline-block d-lg-none ml-auto"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-align-justify"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Admin</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="#">nav 2</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">nav 3</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">nav 4</a>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- <div class="line"></div>
+
+
+        <div class="line"></div>
+
+       
+
+        <div class="line"></div> -->
+      </div>
+    </div>
+  </body>
+  <script src="../JS/sidebar.js"></script>
+</html>

@@ -116,7 +116,7 @@ function TBsidebarComponents(){
                 <a href="#" id = "assignproject1">Assign Project</a>
               </li>
               <li>
-                <a href="#">Completed Project</a>
+                <a href="#" id = "completedProject1">Completed Project</a>
               </li>
             </ul>
           </li>
@@ -172,3 +172,4 @@ function sidebarCollapse1(){
 }
 
 export { sidebarCollapse1 , TBsidebarComponents }
+

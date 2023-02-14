@@ -111,3 +111,16 @@ function ProjectDfunction() {
     displaycomponents.innerHTML = assignproject()
   }
 
+/* ---------------------------------------------------
+    completed Project js
+  ----------------------------------------------------- */
+
+  import { completedProject } from "./completedProject.js";
+  console.log(completedProject,"check");
+
+  let completedProject1 = document.getElementById("completedProject1");
+  completedProject1.addEventListener("click",completedProjectfunction);
+
+  function completedProjectfunction() {
+    displaycomponents.innerHTML = completedProject()
+  }
