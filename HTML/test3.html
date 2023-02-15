@@ -4,16 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>check</title>
-
-    <!--  -->
+    <title>Dash-home-main</title>
     <script
       src="https://kit.fontawesome.com/600a8f63f4.js"
       crossorigin="anonymous"
     ></script>
     <link rel="icon" href="../Assets/fav-icon.png" type="image/icon type" />
 
-    <link rel="stylesheet" href="../CSS/AdminDashboard.css" />
+    <link rel="stylesheet" href="../CSS/home.css" />
     <!-- Bootstrap CSS CDN -->
     <link
       rel="stylesheet"
@@ -57,87 +55,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <!-- Sidebar  -->
-      <nav id="sidebar">
-        <div class="sidebar-header">
-            <!-- <h3>Tathastu Group</h3> -->
-            <img class="nav_logo" src="../Assets/logo-tt 1.png" alt="" />
-          </div>
-        
-          <ul class="list-unstyled components">
-            <!-- <p>Admin Panel</p> -->
-          <!--  -->
-              <li class="active">
-                <a href=""
-                  ><div>
-                    <img class="sidebar_option" src="../Assets/demo12.png" alt="" />
-          
-                    <!--  -->
-          
-                    <span class="sidebar_option_span">Dashboard</span>
-                  </div></a
-                >
-              </li>
-            <!--start  -->
-          
-            <!--end  -->
-            <!-- start -->
-            <li class="active">
-              <a
-                href="#homeSubmenu2"
-                data-toggle="collapse"
-                aria-expanded="false"
-                class="dropdown-toggle"
-                ><div>
-                  <img
-                    class="sidebar_option"
-                    src="../Assets/company1.png"
-                    alt=""
-                  />
-                  <span class="sidebar_option_span">Company</span>
-                </div></a
-              >
-              <ul class="collapse list-unstyled dropdown_inner" id="homeSubmenu2">
-              
-                <li>
-                  <a href="../HTML/TTCompanyDashboard.html"
-                    >Tathastu Technologies</a
-                  >
-                </li>
-                <li>
-                  <a href="../HTML/TBCompanyDashboard.html">Tathastu BIM</a>
-                </li>
-                <li>
-                  <a href="#" id = "addcompany1">Add New Company</a>
-                </li>
-              </ul>
-            </li>
-            <li class="active">
-                <a
-                  href="#homeSubmenu1"
-                  data-toggle="collapse"
-                  aria-expanded="false"
-                  class="dropdown-toggle"
-                  ><div>
-                    <img class="sidebar_option" src="../Assets/admin1.png" alt="" />
-                    <span class="sidebar_option_span">Admin</span>
-                  </div></a
-                >
-                <ul class="collapse list-unstyled dropdown_inner" id="homeSubmenu1">
-                  <li class="employeelist">
-                    <a href="#">Assign project</a>
-                  </li>
-                  <li>
-                    <a href="#">Permisssion</a>
-                  </li>
-                 
-                </ul>
-              </li>
-            <!-- end -->
-                                                
-      </nav>
-      <!-- sidbar end -->
-      <!-- Page Content  -->
+      <nav id="sidebar"></nav>
       <div id="content">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid abc">
@@ -156,7 +74,6 @@
             >
               <i class="fas fa-align-justify"></i>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="nav navbar-nav ml-auto">
                 <div>
@@ -179,22 +96,76 @@
             </div>
           </div>
         </nav>
-        <div class="bbb"></div>
+        <!-- <div id="displayemployeelist" class="bbb"></div>
+        <div id="displayviewemployee" class="bbb"></div>
+        <div id="displayaddemployee" class="bbb"></div>
+        <div id="displayupdateemployee" class="bbb"></div>
+        <div id="displayaddcompany" class="bbb"></div> -->
+        <div id="displaycomponents" class="bbb">
+          <div class="Home-main-container">
+            <div class="box11">
+              <div><h3 class="title11">Total Employee Count</h3></div>
+              <div class="title-border11"></div>
+              <div class="box1-div11">
+                <div class="box1-row111">
+                  <div>Total count</div>
+                  <div>:</div>
+                  <div>40</div>
+                </div>
+                <div class="box1-row111">
+                  <div>BIM</div>
+                  <div>:</div>
+                  <div>25</div>
+                </div>
+                <div class="box1-row111">
+                  <div>Tech</div>
+                  <div>:</div>
+                  <div>15</div>
+                </div>
+              </div>
+            </div>
+            <div class="box11">
+              <div><h3 class="home-main-title">Total Project Count</h3></div>
+              <div class="Home-main-container-title-border"></div>
+              <div class="Home-main-container-box1-div">
+                <div class="Home-main-container-box1-row1">
+                  <div>Total count</div>
+                  <div>:</div>
+                  <div>18</div>
+                </div>
+                <div class="Home-main-container-box1-row1">
+                  <div>BIM</div>
+                  <div>:</div>
+                  <div>11</div>
+                </div>
+                <div class="Home-main-container-box1-row1">
+                  <div>Tech</div>
+                  <div>:</div>
+                  <div>7</div>
+                </div>
+              </div>                                  
+            </div>                                                                                 
+            <div class="Home-main-container-box1">
+              <div><h3 class="home-main-title">Total Company</h3></div>
+              <div class="Home-main-container-title-border"></div>
+              <div class="Home-main-container-box1-div">
+                <div class="Home-main-container-box1-row1">
+                  <div>Total count</div>
+                  <div>:</div>
+                  <div>2</div>
+                </div>
+                <div class="Home-main-container-box1-row1">
+                  <div>1 ] Tathastu Technologies</div>
+                </div>
+                <div class="Home-main-container-box1-row1">
+                  <div>2 ] Tathastu BIM</div>
+                </div>
+              </div>                                  
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
-  <script type="module">
-     import {
-      sidebarCollapse1,
-    } from "../JS/sidebarComponents.js";
-
-    console.log(sidebarCollapse1);
-
-    // let conts = document.getElementById("sidebar");
-
-    // conts.innerHTML = sidebarComponents();
-
-    
-    var x = sidebarCollapse1();
-  </script>
 </html>
+<script type="module" src="../JS/home.js"></script>

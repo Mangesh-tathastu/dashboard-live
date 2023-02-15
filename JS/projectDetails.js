@@ -20,7 +20,7 @@ function projectDetails (){
           <div>:</div>
           <div>Tathastu Tech</div>
         </div>
-        <div class="viewproject-details-box">
+        <div class="viewproject-details-box">                                                   
           <div>Start Date</div>
           <div>:</div>
           <div>13/02/2023</div>
