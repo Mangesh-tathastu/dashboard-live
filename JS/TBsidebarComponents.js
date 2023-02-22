@@ -1,5 +1,5 @@
-function TBsidebarComponents(){
-    return`
+function TBsidebarComponents() {
+  return `
     <div class="sidebar-header">
           <img class="nav_logo" src="../Assets/tathastu bim logo.png" alt="" />
         </div>
@@ -132,7 +132,7 @@ function TBsidebarComponents(){
                 <span class="sidebar_option_span">Portfolio</span>
               </div></a
             >
-          </li>
+          </li> 
           <li>
             <a href="#" id = "Leave"
               ><div>
@@ -159,17 +159,15 @@ function TBsidebarComponents(){
           </li>
         </ul>
     
-    `
+    `;
 }
 
-
-function sidebarCollapse1(){
-    $(document).ready(function () {
-        $("#sidebarCollapse").on("click", function () {
-          $("#sidebar").toggleClass("active");
-        });
-      });
+function sidebarCollapse1() {
+  $(document).ready(function () {
+    $("#sidebarCollapse").on("click", function () {
+      $("#sidebar").toggleClass("active");
+    });
+  });
 }
 
-export { sidebarCollapse1 , TBsidebarComponents }
-
+export { sidebarCollapse1, TBsidebarComponents };
