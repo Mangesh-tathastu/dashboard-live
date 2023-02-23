@@ -237,6 +237,9 @@ a.down_btn:hover {
   background-color: #ffffff;
   border-radius: 5px;
   padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 .Home-main-container {
   /* border: 1px solid black; */
@@ -859,23 +862,11 @@ img {
 /* ---------------------------------------------------
     TT home main style start
 ----------------------------------------------------- */
-.TTHome-main-container {
-  /* border: 3px solid black; */
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 30px;
-  /* box-shadow: 0px 0px 8px #e74f2c; */
-  background-color: #ffffff;
-  display: flex;
-  gap: 30px;
-  color: #16243d;
-  border-radius: 5px;
-  justify-content: center;
-}
+
 .TTHome-main-container-box1 {
   margin-top: 20px;
   /* border: 1px solid black; */
-  height: 400px;
+  height: 800px;
   /* margin-bottom: 90px; */
 }
 .TThome-main-title {
@@ -1163,7 +1154,7 @@ img {
 
 .spandiv > div > p {
   color: #2e3a59;
-  font-size: medium;
+  font-size: small;
 }
 .spandiv > div > p:last-child {
   margin-top: -20px;
@@ -1179,9 +1170,19 @@ img {
   /* border:  2px solid blue; */
   border-radius: 50%;
   background-color: #fff;
-  padding-top: 5px;
+  padding-top: 15px;
   /* box-shadow:  #e78267; */
   box-shadow: 0 0 50px #ccc;
+}
+.current-project-text{
+  font-size: 15px ;
+}
+.current-project-text > span {
+  font-weight: 600;
+}
+.circle_text1{
+  font-size: 10px !important;
+  font-weight: 300;
 }
 .headlines12 {
   /* color: #2e3a59; */
